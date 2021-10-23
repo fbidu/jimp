@@ -290,7 +290,8 @@ good-names=i,
            Run,
            _,
            db,
-           e
+           e,
+           f
 
 # Include a hint for the correct naming format with invalid-name.
 include-naming-hint=no

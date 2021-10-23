@@ -35,11 +35,3 @@ repos:
         language: system
         files: \.py$
         stages: [commit]
-
-      - id: system
-        name: PyTest
-        entry: poetry run pytest
-        language: system
-        pass_filenames: false
-        stages: [push]
-        verbose: true
